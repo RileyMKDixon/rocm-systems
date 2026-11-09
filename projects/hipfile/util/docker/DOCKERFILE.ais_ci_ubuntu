@@ -158,6 +158,7 @@ RUN printf '%s\n' \
         'unset _f' \
         > /etc/bash_env.sh && \
     echo '. /etc/bash_env.sh' >> /etc/bash.bashrc
+RUN echo "Hello World"
 ENV BASH_ENV="/etc/bash_env.sh"
 
 # Environment Build Arg for ROCm
