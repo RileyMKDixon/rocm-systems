@@ -1,6 +1,6 @@
 name: update_nightly_CI_image
 run-name: Refresh the latest nightly hipFile CI image
-
+#noop
 env:
   AIS_DOCKER_REGISTRY: ghcr.io/${{ github.repository_owner }}/hipfile
 
